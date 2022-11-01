@@ -100,6 +100,7 @@ def tokenizefunc(word):
                 r += "-" + sl
     return re.search(f'{rgx}', r, flags=re.IGNORECASE) or iCorrect(r) or False
 
+
 while True:
     soz = input("soz kiriting: ")
     a = tokenizefunc(soz)
