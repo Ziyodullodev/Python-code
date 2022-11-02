@@ -1,6 +1,6 @@
 import re
 
-class boginlovchi:
+class Boginlovchi:
     def __init__(self, word) -> None:
         self.word = word
     def __str__(self) -> str:
@@ -106,5 +106,5 @@ class boginlovchi:
                         rem = rem[5:]
         return textmap
 soz = input("soz kiriting: ")
-a = boginlovchi(soz)
+a = Boginlovchi(soz)
 print(a)
