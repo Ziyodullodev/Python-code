@@ -1,2 +1,1 @@
-# Python-code
-Pythonda turli xil scriptlar 
+my updated file contents
